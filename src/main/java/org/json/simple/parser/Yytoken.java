@@ -52,6 +52,9 @@ public class Yytoken {
 		case TYPE_EOF:
 			sb.append("END OF FILE");
 			break;
+		default:
+			sb.append("UNKNOWN TYPE");
+			break;
 		}
 		return sb.toString();
 	}
