@@ -54,6 +54,7 @@ public class Yytoken {
 			break;
 		default:
 			sb.append("UNKNOWN TYPE");
+			break;
 		}
 		return sb.toString();
 	}
